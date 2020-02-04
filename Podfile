@@ -7,7 +7,7 @@ target 'Habit Tracker' do
   # Pods for Habit Tracker
   
   pod 'RealmSwift'
-  pod 'SwipeCellKit'
+  pod 'Cheers'
   pod 'JTAppleCalendar'
   pod 'ChameleonFramework/Swift'
 

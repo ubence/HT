@@ -18,33 +18,34 @@ class HabitDetailVC: UIViewController {
     @IBOutlet weak var progressView: UIProgressView!
     
     @IBOutlet weak var bottomLeftLabel: UILabel!
+    @IBOutlet weak var monthLbl: UILabel!
     
     @IBOutlet weak var bottomCenterLabel: UILabel!
     
     @IBOutlet weak var bottomRigthLabel: UILabel!
     let realm = try! Realm()
-
+    
     
     var selectedHabit: Habit = Habit()
     override func viewDidLoad(){
         
-    
-
+        
+        
         
         super.viewDidLoad()
         calendarView.allowsMultipleSelection = true
         updateBottomPartOfView()
-
+        
         //let date = Date()
         var selectDays:[Date] = []
         if selectedHabit.itWasDoneOnDates.count != 0{
             for i in selectedHabit.itWasDoneOnDates{
-                 selectDays.append(i)
-                 print(i)
-             }
+                selectDays.append(i)
+                
+            }
             self.calendarView.scrollToDate(selectDays[0]) {
                 self.calendarView.selectDates(selectDays)
-
+                
             }
         }else{
             print("nincs meg datum benne")
@@ -53,11 +54,15 @@ class HabitDetailVC: UIViewController {
     }
     
     func updateBottomPartOfView(){
+        let date = Date()
+        var formatter = DateFormatter()
+        formatter.dateFormat = "yyyy MMMM"
+        monthLbl.text = formatter.string(from: date)
         habitNameLbl.text = selectedHabit.name
         bottomLeftLabel.text = "\(selectedHabit.itWasDone)/\(selectedHabit.difficulity)"
         let percent = Float(selectedHabit.itWasDone) / Float(selectedHabit.difficulity)
         bottomRigthLabel.text = "\(Int(ceil(percent*100)))%"
-        let formatter = DateFormatter()
+        formatter = DateFormatter()
         formatter.dateFormat = "yyyy. MM. dd."
         let formattedDate = formatter.string(from:  selectedHabit.dateCreated)
         bottomCenterLabel.text = "Started on \(formattedDate)"
@@ -71,7 +76,7 @@ class HabitDetailVC: UIViewController {
         formatter.dateFormat = "yyyy MM dd"
         let today = formatter.date(from: formatter.string(from: date3))!
         let date2 = formatter.date(from: formatter.string(from: date))!
-            
+        
         do {
             
             try realm.write {
@@ -104,9 +109,10 @@ class HabitDetailVC: UIViewController {
 extension HabitDetailVC: JTAppleCalendarViewDataSource {
     
     func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters {
+        let date = Date()
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy MM dd"
-        let startDate = formatter.date(from: "2019 10 01")!
+        let startDate = formatter.date(from: formatter.string(from: date))!
         let endDate = Date()
         
         return ConfigurationParameters(startDate: startDate, endDate: endDate, firstDayOfWeek:DaysOfWeek.monday, hasStrictBoundaries: false)
@@ -132,7 +138,7 @@ extension HabitDetailVC: JTAppleCalendarViewDataSource {
         if cellState.dateBelongsTo == .thisMonth {
             cell.dateLabel.textColor = UIColor.black
         } else {
-            cell.dateLabel.textColor = UIColor.gray
+            cell.dateLabel.textColor = UIColor.clear
         }
     }
     

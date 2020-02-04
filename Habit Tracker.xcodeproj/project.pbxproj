@@ -19,12 +19,18 @@
 		8A2D9E7D23AFC360009D3C83 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D9E7C23AFC360009D3C83 /* SettingsVC.swift */; };
 		8A2D9E7F23AFC3BD009D3C83 /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D9E7E23AFC3BD009D3C83 /* StatsVC.swift */; };
 		8A2D9E8323AFDC4D009D3C83 /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D9E8223AFDC4D009D3C83 /* Stat.swift */; };
+		8A4CE3E223980CB6000FE63B /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 8A4CE3E123980CB5000FE63B /* AppIcon.appiconset */; };
 		8A5719BA2385F0590051B8D1 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5719B92385F0590051B8D1 /* Habit.swift */; };
 		8A5719BF238743020051B8D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5719BE238743020051B8D1 /* Default-568h@2x.png */; };
-		8A5719C2238745AB0051B8D1 /* NewHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5719C1238745AB0051B8D1 /* NewHabitViewController.swift */; };
+		8A5719C2238745AB0051B8D1 /* NewHabitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5719C1238745AB0051B8D1 /* NewHabitVC.swift */; };
 		8A5719C42387E86A0051B8D1 /* HabitDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5719C32387E86A0051B8D1 /* HabitDetailVC.swift */; };
 		8A647B8023890F12007A56D2 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A647B7F23890F12007A56D2 /* DateCell.swift */; };
 		8A90EB6D23AE9F66007C7F2D /* HabitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A90EB6C23AE9F66007C7F2D /* HabitsVC.swift */; };
+		8A9548F2239324DE000BE947 /* colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A9548F1239324DE000BE947 /* colors.png */; };
+		8AA00CD8239297C80013CA05 /* trumpet.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 8AA00CD7239297C80013CA05 /* trumpet.aiff */; };
+		8AC29E4A23912CBF00C63D82 /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC29E4923912CBF00C63D82 /* NotificationsVC.swift */; };
+		8AC29E4C23912D3700C63D82 /* TimeOfDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC29E4B23912D3700C63D82 /* TimeOfDayVC.swift */; };
+		8AC29E4E239133D400C63D82 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC29E4D239133D400C63D82 /* Settings.swift */; };
 		E96B68F2E4F29B0C3C7C805D /* Pods_Habit_Tracker_Habit_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1597BBEA602B6962E517B8C1 /* Pods_Habit_Tracker_Habit_TrackerUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,12 +71,18 @@
 		8A2D9E7C23AFC360009D3C83 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		8A2D9E7E23AFC3BD009D3C83 /* StatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatsVC.swift; path = "Habit Tracker/Controller/StatsVC.swift"; sourceTree = SOURCE_ROOT; };
 		8A2D9E8223AFDC4D009D3C83 /* Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
+		8A4CE3E123980CB5000FE63B /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		8A5719B92385F0590051B8D1 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		8A5719BE238743020051B8D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8A5719C1238745AB0051B8D1 /* NewHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitViewController.swift; sourceTree = "<group>"; };
+		8A5719C1238745AB0051B8D1 /* NewHabitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitVC.swift; sourceTree = "<group>"; };
 		8A5719C32387E86A0051B8D1 /* HabitDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailVC.swift; sourceTree = "<group>"; };
 		8A647B7F23890F12007A56D2 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateCell.swift; path = "Habit Tracker/Controller/DateCell.swift"; sourceTree = SOURCE_ROOT; };
 		8A90EB6C23AE9F66007C7F2D /* HabitsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HabitsVC.swift; path = "Habit Tracker/Controller/HabitsVC.swift"; sourceTree = SOURCE_ROOT; };
+		8A9548F1239324DE000BE947 /* colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors.png; sourceTree = "<group>"; };
+		8AA00CD7239297C80013CA05 /* trumpet.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = trumpet.aiff; sourceTree = "<group>"; };
+		8AC29E4923912CBF00C63D82 /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		8AC29E4B23912D3700C63D82 /* TimeOfDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayVC.swift; sourceTree = "<group>"; };
+		8AC29E4D239133D400C63D82 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		8C0458AFE32DA20882C0D457 /* Pods_Habit_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Habit_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		992A2FBE7CCFB2DA1B04D13F /* Pods-Habit Tracker-Habit TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habit Tracker-Habit TrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-Habit Tracker-Habit TrackerUITests/Pods-Habit Tracker-Habit TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A351D4829E1806D3CB967FB3 /* Pods-Habit Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habit Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,8 +201,10 @@
 				8A2D9E7E23AFC3BD009D3C83 /* StatsVC.swift */,
 				8A90EB6C23AE9F66007C7F2D /* HabitsVC.swift */,
 				8A2D9E7C23AFC360009D3C83 /* SettingsVC.swift */,
-				8A5719C1238745AB0051B8D1 /* NewHabitViewController.swift */,
+				8A5719C1238745AB0051B8D1 /* NewHabitVC.swift */,
 				8A5719C32387E86A0051B8D1 /* HabitDetailVC.swift */,
+				8AC29E4923912CBF00C63D82 /* NotificationsVC.swift */,
+				8AC29E4B23912D3700C63D82 /* TimeOfDayVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +215,9 @@
 				8A0B59902384350300A90B47 /* LaunchScreen.storyboard */,
 				8A0B5987238434FF00A90B47 /* SceneDelegate.swift */,
 				8A0B598E2384350300A90B47 /* Assets.xcassets */,
+				8A4CE3E123980CB5000FE63B /* AppIcon.appiconset */,
+				8A9548F1239324DE000BE947 /* colors.png */,
+				8AA00CD7239297C80013CA05 /* trumpet.aiff */,
 				8A5719BE238743020051B8D1 /* Default-568h@2x.png */,
 				8A647B7F23890F12007A56D2 /* DateCell.swift */,
 			);
@@ -212,6 +229,7 @@
 			children = (
 				8A5719B92385F0590051B8D1 /* Habit.swift */,
 				8A2D9E8223AFDC4D009D3C83 /* Stat.swift */,
+				8AC29E4D239133D400C63D82 /* Settings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,7 +354,10 @@
 				8A0B59922384350300A90B47 /* LaunchScreen.storyboard in Resources */,
 				8A5719BF238743020051B8D1 /* Default-568h@2x.png in Resources */,
 				8A0B598F2384350300A90B47 /* Assets.xcassets in Resources */,
+				8A9548F2239324DE000BE947 /* colors.png in Resources */,
+				8A4CE3E223980CB6000FE63B /* AppIcon.appiconset in Resources */,
 				8A0B598D238434FF00A90B47 /* Main.storyboard in Resources */,
+				8AA00CD8239297C80013CA05 /* trumpet.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,9 +487,12 @@
 			files = (
 				8A5719BA2385F0590051B8D1 /* Habit.swift in Sources */,
 				8A90EB6D23AE9F66007C7F2D /* HabitsVC.swift in Sources */,
-				8A5719C2238745AB0051B8D1 /* NewHabitViewController.swift in Sources */,
+				8AC29E4E239133D400C63D82 /* Settings.swift in Sources */,
+				8A5719C2238745AB0051B8D1 /* NewHabitVC.swift in Sources */,
+				8AC29E4C23912D3700C63D82 /* TimeOfDayVC.swift in Sources */,
 				8A0B5986238434FF00A90B47 /* AppDelegate.swift in Sources */,
 				8A2D9E8323AFDC4D009D3C83 /* Stat.swift in Sources */,
+				8AC29E4A23912CBF00C63D82 /* NotificationsVC.swift in Sources */,
 				8A0B5988238434FF00A90B47 /* SceneDelegate.swift in Sources */,
 				8A5719C42387E86A0051B8D1 /* HabitDetailVC.swift in Sources */,
 				8A2D9E7F23AFC3BD009D3C83 /* StatsVC.swift in Sources */,

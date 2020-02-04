@@ -2,35 +2,35 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - Cheers (2.3.0)
   - JTAppleCalendar (7.1.7)
   - Realm (4.1.1):
     - Realm/Headers (= 4.1.1)
   - Realm/Headers (4.1.1)
   - RealmSwift (4.1.1):
     - Realm (= 4.1.1)
-  - SwipeCellKit (2.7.1)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift
+  - Cheers
   - JTAppleCalendar
   - RealmSwift
-  - SwipeCellKit
 
 SPEC REPOS:
   trunk:
     - ChameleonFramework
+    - Cheers
     - JTAppleCalendar
     - Realm
     - RealmSwift
-    - SwipeCellKit
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Cheers: 7e42fc09e1ca5059870b979131136d17b50ccc9c
   JTAppleCalendar: 96da4d8388fa6dc82d6a60d41ef36a015e167e2f
   Realm: 25f0a8244cbb1c2271c922963ea8666fc2d8104d
   RealmSwift: 9e2657b33764f80e4a4dffd6d440e24715782052
-  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
 
-PODFILE CHECKSUM: 2ee8d4fe9b887d69da29efda51108acd5be6a719
+PODFILE CHECKSUM: 47244a93e6856d1b68ba3394e210f0b7cff68cf5
 
 COCOAPODS: 1.8.4
